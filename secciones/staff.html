@@ -4,22 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="KDS es un centro médico dedicado a la Traumatología y Deportologia - Pilates">
+    <meta name="keywords"  content="KINESIOLOGIA, LESION, REHABILITACION, SALUD, PILATES, KINESIOLOGO">
 
 <!------ inicio de las rutas de estilos ------>
+
     <script src="https://kit.fontawesome.com/7e5b2d153f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/estilos.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
     <!-- CSS only -->
+
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 <!------ titulo y logo en la pestaña ------>
 
-<title>KDS</title>
+<title>KDS: Kinesiología</title>
 <link rel="shortcut icon" href="../fotos-videos/logokds.png" type="image/x-icon">
-
 </head>
 <body>
 
@@ -27,7 +31,7 @@
 
     <header>
         <nav id="barraNav" class="navbar navBar navbar-expand-lg bg-light p-1">
-            <div class="container-fluid">
+            <div class="container">
                 <a href="../index.html"><img src="../fotos-videos/logokds - copia.png" class="logo" alt="Logo KDS" title="KDS"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -48,7 +52,7 @@
                         </li>
                         <li><a class="nav-link" href="../secciones/contacto.html">Contacto</a></li>
                     </ul>
-                    <div class="contacto" id="contactos__header">
+                    <div class="contacto">
                         <a href="https://www.instagram.com/kds.corraldebustos/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
                         <a href="https://www.facebook.com/kdsalud/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a> 
                         <a href="https://www.whatsapp.com/?lang=es" class="wapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
@@ -58,7 +62,7 @@
         </nav>
         <div class="titulos__ppal">
             <section class="contenedor">
-                <h2 class="titulo item">KDS: Kinesiología, Deporte y Salud</h2>
+                <h1 class="titulo item">KDS: Kinesiología, Deporte y Salud</h1>
                 <p class="parrafo item">Centro médico dedicado a la Traumatología y Deportologia - Pilates. <br> Trabajamos en la prevención de lesiones. <br> Nos caracterizamos por el constante seguimiento de nuestros pacientes.</p>
                 <h4 class="slogan item">“Trabajamos día a día comprometidos en mejorar tu calidad de vida”</h4>
             </section>
@@ -68,50 +72,85 @@
     </header>
 
 <!------- termina logo + nav ------>
+
 <!------ informacion del sitio ------->
-    <section>
-        <div class="section">  
+
+    <section class="section">
+        <div class="seccion_staff">  
             <h2>Nuestros profesionales</h2>
             <p>Contamos con un equipo profesional capacitado compuesto por:</p>
         </div>    
-        <div class="staff1">    
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdoIGyjfWfRbFpLVJPASs5w4IeiJ54yXEOIA&usqp=CAU" alt="">
-            <h3>Nombre y apellido:</h3>
-            <p>Descripcion:</p>
-        </div>
-        <div class="staff2">            
-            <img src="data:image/jpeg;base64,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" alt="">
-            <h3>Nombre y apellido:</h3>
-            <p>Descripcion:</p>
-        </div>
-        <div class="staff3">            
-            <img src="data:image/jpeg;base64,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" alt="">
-            <h3>Nombre y apellido:</h3>
-            <p>Descripcion:</p>
-        </div>
+        <div class="card mb-3 col-md-4 p-1" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../fotos-videos/kinesiologo1.jfif" class="img-fluid" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nombre y apellido</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-4 d-flex" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../fotos-videos/kinesiologa.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nombre y apellido</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card mb-3 col-md-4 d-flex" style="max-width: 540px;">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../fotos-videos/secretaria.jpg" class="img-fluid rounded-start" alt="...">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Nombre y apellido</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                  <a href="#" class="btn btn-primary">Conocé más</a>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
+
+
 
 <!------ inicio del footer ------->
 
-    <footer>
-        <div class="contenedor-footer">
-            <div class="logoFooter">
-                <a href="../index.html"><img src="../fotos-videos/logokds1.png" alt=""></a>
-            </div>
-            <div class="contacto">
-                <h3>Nuestras redes</h3>
-                <a href="https://www.instagram.com/kds.corraldebustos/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.facebook.com/kdsalud/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a> 
-                <a href="https://www.whatsapp.com/?lang=es" class="wapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
-            </div>
-            <div class="contacto" id="ubicacion">
-                <img src="../fotos-videos/ubicacion.png" alt="">
-                <h4>Av Italia 565, Corral de bustos</h4>
-            </div>
-        </div>
-    </footer>
+<footer>
+  <div class="contenedor-footer">
+      <div class="logoFooter">
+          <a href="../index.html"><img src="../fotos-videos/logokds1.png" alt="" class="logo__footer"></a>
+      </div>
+      <div class="redes">
+          <h3 class="redes__h3">Nuestras redes</h3>
+          <a href="https://www.instagram.com/kds.corraldebustos/" class="ig" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com/kdsalud/" class="fb" target="_blank"><i class="fab fa-facebook-f"></i></a> 
+          <a href="https://www.whatsapp.com/?lang=es" class="wapp" target="_blank"><i class="fab fa-whatsapp"></i></a>
+      </div>
+      <div class="ubicacion">
+          <img src="../fotos-videos/ubicacion.png" alt="">
+          <h4>Av. Italia 565, Corral de bustos</h4>
+      </div>
+  </div>
+</footer>
 
 <!------ fin del foooter ------>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
 
 </body>
 </html>

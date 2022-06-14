@@ -1,0 +1,39 @@
+.carousel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.pie__carrusel{
+    width: 200px;
+    background-color: #A0D4E0;
+    border-radius: 10px;
+    text-align:inherit;
+    word-spacing: 5px;
+    padding: 10px;
+    .titulo{
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    .pie__foto{
+        padding: 10px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+}
+
+.turno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg-nav;
+    margin-top: 50px;
+    .turno__h3{
+        text-align: center;
+        padding: 40px;
+    }
+    .turno__img{
+        height: 60px;
+        width: 250px;
+    }
+}

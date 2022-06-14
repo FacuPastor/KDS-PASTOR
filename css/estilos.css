@@ -1,0 +1,286 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Monserrat', sans-serif; }
+
+header {
+  width: 100%;
+  height: 750px;
+  background-color: #36096d;
+  background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor.png);
+  position: relative; }
+
+.navBar {
+  width: 100%;
+  height: 170px;
+  font-weight: bold;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  align-items: center; }
+  .navBar .container {
+    background-color: #A0D4E0; }
+  .navBar .logo {
+    width: 200px;
+    height: 120px;
+    padding: 2px; }
+  .navBar #navbarSupportedContent li a {
+    color: #000;
+    letter-spacing: 2.5px;
+    font-size: large;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    transition: transform 0.4s; }
+    .navBar #navbarSupportedContent li a:hover {
+      color: #167e83d9;
+      transform: scale(0.8); }
+
+.contacto {
+  text-align: center; }
+  .contacto a {
+    display: inline-flex;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 6px;
+    font-weight: bold;
+    transition: transform 0.4s; }
+    .contacto a:hover {
+      transform: scale(1.5);
+      color: #fff; }
+  .contacto .ig {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); }
+  .contacto .fb {
+    background-color: #3c70a4; }
+  .contacto .wapp {
+    background-color: #05a405; }
+
+.contenedor {
+  display: grid;
+  grid-template-rows: 60px 100px 150px;
+  justify-content: center;
+  padding: 100px;
+  align-items: flex-start;
+  text-align: justify;
+  font-weight: 300; }
+  .contenedor .titulo {
+    grid-row: 1/2;
+    text-align: center;
+    font-size: xx-large;
+    letter-spacing: 1px; }
+  .contenedor .parrafo {
+    grid-row: 2/3;
+    text-align: center;
+    margin-bottom: 70px;
+    letter-spacing: 1.8px;
+    font-size: larger;
+    line-height: 35px; }
+  .contenedor .slogan {
+    grid-row: 3/4;
+    text-align: center;
+    font-size: x-large;
+    padding: 10px;
+    margin: 60px;
+    letter-spacing: 2px;
+    word-spacing: 0.5px;
+    font-weight: bold;
+    border: #000 solid 2px; }
+
+.wave {
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
+
+.carousel {
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
+.pie__carrusel {
+  width: 200px;
+  background-color: #A0D4E0;
+  border-radius: 10px;
+  text-align: inherit;
+  word-spacing: 5px;
+  padding: 10px; }
+  .pie__carrusel .titulo {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  .pie__carrusel .pie__foto {
+    padding: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+
+.turno {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #A0D4E0;
+  margin-top: 50px; }
+  .turno .turno__h3 {
+    text-align: center;
+    padding: 40px; }
+  .turno .turno__img {
+    height: 60px;
+    width: 250px; }
+
+footer {
+  background: #167e83d9;
+  padding: 60px 0 30px 0;
+  margin: auto;
+  overflow: hidden; }
+
+.contenedor-footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid #fff; }
+  .contenedor-footer .logo__footer {
+    width: 200px;
+    height: 100px;
+    padding: 2px;
+    margin: 2px; }
+
+.redes {
+  text-align: center; }
+  .redes .redes__h3 {
+    color: #000;
+    border-bottom: 3px solid #000;
+    padding-bottom: 10px;
+    margin-bottom: 10px; }
+  .redes a {
+    display: inline-flex;
+    color: #fff;
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 0 6px;
+    transition: transform 0.4s; }
+    .redes a:hover {
+      transform: scale(1.5);
+      color: #fff; }
+  .redes .ig {
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); }
+  .redes .fb {
+    background-color: #3c70a4; }
+  .redes .wapp {
+    background-color: #05a405; }
+
+.ubicacion {
+  margin-right: 40px; }
+  .ubicacion img {
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    border-radius: 30%; }
+
+#acordion__tit {
+  color: #000;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2.5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+
+.accordion-body img {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%; }
+
+.active img {
+  width: 200px;
+  height: 600px; }
+
+.tarjetas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  padding: 50px; }
+  .tarjetas .tarjetas-box {
+    width: 600px;
+    margin: 10px;
+    padding: 20px;
+    background-color: #734ae8;
+    background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+    color: #24303c; }
+    .tarjetas .tarjetas-box h2 {
+      text-align: center;
+      padding-top: 1px;
+      padding-bottom: 10px;
+      font-size: 25px;
+      margin-top: 20px; }
+    .tarjetas .tarjetas-box img {
+      width: 100%;
+      height: 470px;
+      padding-top: 15px;
+      border-radius: 14px;
+      overflow: hidden; }
+
+.infopag {
+  background-color: #167e83d9;
+  padding: 30px; }
+  .infopag h2 {
+    color: #fff;
+    font-size: xx-large;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+    text-align: center;
+    padding-bottom: 10px; }
+  .infopag h3 {
+    color: #fff;
+    text-align: center;
+    font-size: x-large; }
+
+.pilates {
+  display: flex;
+  margin: 70px;
+  padding: 10px; }
+  .pilates h4 {
+    color: #fff;
+    font-size: large;
+    padding: 10px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    text-align: center; }
+  .pilates .items {
+    color: #fff;
+    list-style-type: disc;
+    padding: 10px; }
+  .pilates .video__pilates {
+    width: 240px; }
+
+.galeria__pilates {
+  text-align: center;
+  padding: 10px;
+  margin: 20px auto; }
+  .galeria__pilates .img__pilates {
+    width: 400px;
+    height: 550px;
+    border-style: double;
+    margin: 10px; }
+
+.section .seccion_staff h2 {
+  font-size: 40px;
+  text-align: center;
+  background-color: #A0D4E0;
+  padding: 10px;
+  margin: auto; }
+
+.section .seccion_staff p {
+  font-size: 25px;
+  padding-left: 20px;
+  padding-bottom: 10px;
+  text-decoration: underline;
+  background-color: #A0D4E0; }

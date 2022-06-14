@@ -1,0 +1,52 @@
+.infopag{
+    background-color: $bg-footer;
+    padding: 30px;
+    h2{
+        color: #fff;
+        font-size: xx-large;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    h3{
+        color: #fff;
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+.pilates{
+    display: flex;
+    margin: 70px;
+    padding: 10px;
+    h4{
+        color: #fff;
+        font-size: large;
+        padding: 10px;
+        letter-spacing: 5px;
+        word-spacing: 10px;
+        text-align: center;
+    }
+    .items{
+        color: #fff;
+        list-style-type: disc;
+        padding: 10px;
+    }
+    .video__pilates{
+        width: 240px;
+    }
+}
+
+
+.galeria__pilates{ 
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto;
+    .img__pilates{
+        width: 400px;
+        height: 550px;
+        border-style: double;
+        margin: 10px;
+    }    
+}
