@@ -25,77 +25,60 @@
                 font-size: 13px;
             }
         }
+}
+
+
+@media screen and (max-width:600px){
     
-    //////// estilos kinesiologia - img
-    
-        .tarjetas{
-            display: grid;
-            grid-template-columns: 150px auto;
-            justify-items: center;
-            padding: 50px;
-            .tarjetas-box{
-                width: 80%;
-                margin: 10px;
-                padding: 20px;
-                background-color: #734ae8;
-                background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
-                color: #24303c;
-                h2{
-                    text-align: center;
-                    padding-top: 1px;
-                    padding-bottom: 10px;
-                    font-size: 25px;
-                    margin-top: 20px;
-                }
-                img{
-                    width: 80%;
-                    height: 300px;
-                    padding-top: 15px;
-                    border-radius: 14px;
-                    overflow: hidden;
-                }
-            }
-        }
+    .tarjetas{
+        padding: 0;
+    }
 }
     
-    @media screen and (max-width:600px){
-    
-        .tarjetas{
-            padding: 0;
-        }
-    }
-    
-    @media screen and (max-width:700px){
-    
-    //////// estilos header
-    
-        header{
-            background-position: right;
-            height: 600px;
-            .navBar{
-                display: flex;
-                padding-top: 100px;
-            }
-            .container{
-                height: 140px;
-                .logo{
-                    width: 120px;
-                    height: 120px;
-                    padding: 5px;
-                }
-            }
-        }
-    
-        .carousel img{
+@media screen and (max-width:700px){
+
+    .carousel{
+        img{
             width: 300px;
             height: 500px;
             border-radius: 10px;
         }
-
         .pie__carrusel{
             display: none;
         }
+    }
+
+//////// estilos kinesiologia - img
     
+    .tarjetas{
+        display: grid;
+        grid-template-columns: auto;
+        justify-items: center;
+        padding: 50px;
+        .tarjetas-box{
+            width: 100%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #734ae8;
+            background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+            color: #24303c;
+            h2{
+                text-align: center;
+                padding-top: 1px;
+                padding-bottom: 10px;
+                font-size: 25px;
+                margin-top: 10px;
+            }
+            img{
+                width: 100%;
+                height: 450px;
+                padding-top: 15px;
+                border-radius: 14px;
+                overflow: hidden;
+            }
+        }
+    }
+
         .contenido{
             display: flex;
             width: 100%;
