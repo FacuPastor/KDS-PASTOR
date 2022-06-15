@@ -15,6 +15,12 @@
 
 @media screen and (max-width:500px){
 
+    header{    
+        width: 100%;
+        height: 600px;
+        background-image: linear-gradient(315deg, hsla(267, 85%, 23%, 0.529) 0%, hsla(180, 59%, 53%, 0.457) 74%), url(../fotos-videos/doctor-500.png);
+    }
+
     //////// estilos index
     
         .contenedor{
@@ -27,7 +33,6 @@
         }
 }
 
-
 @media screen and (max-width:600px){
     
     .tarjetas{
@@ -37,6 +42,9 @@
     
 @media screen and (max-width:700px){
 
+    header{
+        background-image: linear-gradient(315deg, hsla(267, 85%, 23%, 0.529) 0%, hsla(180, 59%, 53%, 0.457) 74%), url(../fotos-videos/doctor-700.png);
+    }
     .carousel{
         img{
             width: 300px;
@@ -79,57 +87,42 @@
         }
     }
 
-        .contenido{
-            display: flex;
-            width: 100%;
-            flex-flow: column wrap;
-            justify-content: center;
-            align-items: center;
-            margin: auto;
-        }
+    .contenido{
+        display: flex;
+        width: 100%;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
     
-        .contenedor{
-            padding: 50px;
-            width: 100%;
-            display: flex;
-            flex-direction: column;
-            margin: auto;
-            justify-content: center;
-            text-align: center;
-        }
-    
-        .contenedor p{
+    .contenedor{
+        padding: 50px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        justify-content: center;
+        text-align: center;
+        .parrafo{
             font-size: 14px;
             padding: 10px;
         }
-    
-        .contenedor h4{
+        .slogan{
             display: none;
         }
+    }
     
-        .galeria{
-            width: 100%;
+    .turno {
+        img{
+        width: 200px;
+        margin: auto;
+        padding-right: 20px;
         }
-    
-        .imgPpal-1{
-            width: 100%;
-            height: auto;
-            margin: 0 auto;
-        }
-    
-        .imgPpal{
-            width: 100%;
-            margin: 0 auto;
-        }
-    
-        .turno img{
-            width: 200px;
-            margin: auto;
-            padding-right: 20px;
-        }
-    
+    }
+
         ////// Estilos footer
-    
+
         footer{
             background: #167e83d9;
             padding: 60px 0 30px 0;
