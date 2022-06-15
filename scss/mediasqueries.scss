@@ -1,0 +1,206 @@
+@media screen and (max-width:420px){
+    .titulos__ppal{
+        .contenedor{
+            .titulo{
+                line-height: 27px;
+                
+            }
+            .parrafo{
+                line-height: 22px;
+
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+
+    //////// estilos index
+    
+        .contenedor{
+            .titulo{
+                font-size: 25px;
+            }
+            .parrafo{
+                font-size: 13px;
+            }
+        }
+    
+    //////// estilos kinesiologia - img
+    
+        .tarjetas{
+            display: grid;
+            grid-template-columns: 150px auto;
+            justify-items: center;
+            padding: 50px;
+            .tarjetas-box{
+                width: 80%;
+                margin: 10px;
+                padding: 20px;
+                background-color: #734ae8;
+                background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
+                color: #24303c;
+                h2{
+                    text-align: center;
+                    padding-top: 1px;
+                    padding-bottom: 10px;
+                    font-size: 25px;
+                    margin-top: 20px;
+                }
+                img{
+                    width: 80%;
+                    height: 300px;
+                    padding-top: 15px;
+                    border-radius: 14px;
+                    overflow: hidden;
+                }
+            }
+        }
+}
+    
+    @media screen and (max-width:600px){
+    
+        .tarjetas{
+            padding: 0;
+        }
+    }
+    
+    @media screen and (max-width:700px){
+    
+    //////// estilos header
+    
+        header{
+            background-position: right;
+            height: 600px;
+            .navBar{
+                display: flex;
+                padding-top: 100px;
+            }
+            .container{
+                height: 140px;
+                .logo{
+                    width: 120px;
+                    height: 120px;
+                    padding: 5px;
+                }
+            }
+        }
+    
+        .carousel img{
+            width: 300px;
+            height: 500px;
+            border-radius: 10px;
+        }
+
+        .pie__carrusel{
+            display: none;
+        }
+    
+        .contenido{
+            display: flex;
+            width: 100%;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+    
+        .contenedor{
+            padding: 50px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            margin: auto;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        .contenedor p{
+            font-size: 14px;
+            padding: 10px;
+        }
+    
+        .contenedor h4{
+            display: none;
+        }
+    
+        .galeria{
+            width: 100%;
+        }
+    
+        .imgPpal-1{
+            width: 100%;
+            height: auto;
+            margin: 0 auto;
+        }
+    
+        .imgPpal{
+            width: 100%;
+            margin: 0 auto;
+        }
+    
+        .turno img{
+            width: 200px;
+            margin: auto;
+            padding-right: 20px;
+        }
+    
+        ////// Estilos footer
+    
+        footer{
+            background: #167e83d9;
+            padding: 60px 0 30px 0;
+            margin: auto;
+            overflow: hidden;
+            width: 100%;
+            height: 170px;
+            .contenedor-footer{
+                display: flex;
+                width: 100%;
+                margin-top: -20px;
+                .logoFooter img{
+                    width: 180px;
+                    height: 80px;
+                }
+            }
+            .redes{
+                display: flex;
+                text-align: center;
+                flex-direction: column;
+                align-items: center;
+                width: 100px;
+                h3{
+                    display: none;
+                }
+                a{
+                    height: 30px;
+                    width: 30px;
+                    margin: 0 50px;
+                }
+                img{
+                    width: 50px;
+                    height: 50px;
+                    margin-top: -15px;
+                }
+            }
+            .ubicacion h4{
+                font-size: 12px;
+                word-spacing: 0.5px;
+                margin-top: -5px;
+            }
+        }
+
+    
+    ///////// Estilos kinesiologia-galeria
+    
+        .tarjetas-box{
+        width: 500px;
+        }
+    
+        .accordion-body img{
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            padding: 20px;
+        }
+    }
