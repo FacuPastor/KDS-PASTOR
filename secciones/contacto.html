@@ -75,29 +75,62 @@
         
 <!-------- inicio formulario -------->
 
-    <div class="contpag">
-        <div class="form">
-            <form action="">
-                <h3>Dejanos tus datos y nosotros te contactamos!</h3>
-                <label for="Nombre"></label>
-                <input class="campos" type="text" placeholder="NOMBRE Y APELLIDO" required>
-                <br>
-                <label for="Email"></label>
-                <input class="campos" type="email" placeholder="E-MAIL" required>
-                <br>
-                <label for="Telefono"></label>
-                <input class="campos" type="tel" placeholder="TELEFONO" required>
-                <br>
-                <textarea class="campos" name="Comentarios" placeholder="MENSAJE" id="" cols="30" rows="10"></textarea>
-                <br>
-                <button class="campos" type="submit">Enviar</button>
-                <button class="campos" type="reset">Reset</button>
-            </form>
-        </div>
-    <div class="mapa">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.419767961674!2d-62.187705284268944!3d-33.28167959625749!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9023bee525b4f%3A0xf8586ae7b69f776f!2sItalia%20565%2C%20X2645%20Corral%20de%20Bustos%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1652294073123!5m2!1ses-419!2sar" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
-    </div>
-    </div>  
+    <main>
+        <section class="d-flex justify-content-center align-items-center formulario">
+            <div class="card shadow col-xs-12 col-sm-6 col-md-6 col-lg-8 p-3"> 
+                <div class="mb-4 d-flex justify-content-start align-items-center">
+                    <h4><i class="bi bi-chat-left-quote"></i>&nbsp;Dejá tus datos y envianos tu consulta</h4>
+                </div>
+                <div class="mb-1 p-1">
+                    <form id = "contacto">
+                        <div class="mb-4 d-flex justify-content-between"> 
+                            <div>
+                                <label for="nombre"><i class="bi bi-person-fill"></i></label>
+                                <input type="text" class="form-control" name="nombre" id="nombre" placeholder= "NOMBRE" required>
+                                <div class="nombre text-danger "></div>
+                            </div>
+                            <div>
+                                <label for="apellido"> <i class="bi bi-person-bounding-box"></i></label>
+                                <input type="text" class="form-control" name="apellido" id="apellido" placeholder= "APELLIDO" required>
+                                <div class="apellido text-danger"></div>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="correo"><i class="bi bi-envelope-fill"></i></label>
+                            <input type="email" class="form-control" name="correo" id="correo" placeholder= "E-MAIL" required>
+                            <div class="correo text-danger"></div>
+                        </div> 
+                        <div class="mb-4 p-2">
+                            <label for="sexo"><i class="bi bi-gender-ambiguous"></i>SEXO:</label>
+                            <input type="radio" class="form-check-input"  name="sexo"  value="masculino">Masculino
+                            <input type="radio" class="form-check-input" name="sexo"  value="femenino">Femenino
+                            <div class="sexo text-danger"></div>
+                        </div>  
+                        <div class="mb-4">
+                            <label for="mensaje"> <i class="bi bi-chat-right-dots-fill" required></i></label>
+                            <textarea name="mensaje" id="mensaje" class="form-control" placeholder="CONSULTA/MENSAJE"></textarea>
+                            <div class="mensaje text-danger"></div>
+                        </div> 
+                        <div class="mb-2">
+                            <button id="botton" class="col-8 btn btn-primary d-flex justify-content-center m-3" type="submit">
+                            <span>Enviar</span><i id="icono" class="bi bi-cursor-fill"></i></button>
+                            <button id="botton" class="col-8 btn btn-primary d-flex justify-content-center m-3" type="reset">
+                            <span>Reset</span><i id="icono" class="bi bi-cursor-fill"></i></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3335.4197679616736!2d-62.187705284289535!3d-33.28167959625751!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95c9023bee525b4f%3A0xf8586ae7b69f776f!2sItalia%20565%2C%20X2645%20Corral%20de%20Bustos%2C%20C%C3%B3rdoba!5e0!3m2!1ses-419!2sar!4v1655251480766!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section class="datos">
+            <img src="../fotos-videos/Customer service_Flatline.svg" alt="">
+            <h3>CENTRAL DE TURNOS <br>+54 (3468) 432 3737</h3>
+            <h4></h4>
+        </section>
+    </main>
+
 
 <!------ inicio del footer ------->
 

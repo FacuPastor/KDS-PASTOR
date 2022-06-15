@@ -1,0 +1,40 @@
+
+main{
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "formulario mapa"
+    "formulario mapa"
+    "formulario datos";
+    .formulario{
+        grid-area: formulario;
+        padding: 10px;
+    }
+    .mapa{
+        grid-area: mapa;
+    }
+    .datos{
+        grid-area: datos;
+        display: flex;
+        align-items:center;
+        h3{
+            font-size: large;
+            word-spacing: 1.5px;
+        }
+        img{
+            width: 150px;
+            height: 150px;
+        }
+    }
+}
+
+// #form{
+//     padding: 20px;
+// }
+
+// .mapa{
+//     justify-content: end;
+//     left: 550px;
+//     bottom: 670px;
+// }
