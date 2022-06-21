@@ -42,7 +42,7 @@ header{
         color: #fff;
         height: 40px;
         width: 40px;
-        background-color: #000;
+        background-color: $text;
         justify-content: center;
         align-items: center;
         text-decoration: none;
@@ -103,7 +103,7 @@ header{
         letter-spacing: 2px;
         word-spacing: 0.5px;
         font-weight: bold;
-        border: #000 solid 2px;
+        border: $text solid 2px;
     }
 }
 .wave{

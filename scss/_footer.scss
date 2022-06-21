@@ -23,8 +23,8 @@ footer{
 .redes{
     text-align: center;
     .redes__h3{
-        color: #000;
-        border-bottom: 3px solid #000;
+        color: $text;
+        border-bottom: 3px solid $text;
         padding-bottom: 10px;
         margin-bottom: 10px;
     }
@@ -33,7 +33,7 @@ footer{
         color: #fff;
         height: 40px;
         width: 40px;
-        background-color: #000;
+        background-color: $text;
         justify-content: center;
         align-items: center;
         text-decoration: none;

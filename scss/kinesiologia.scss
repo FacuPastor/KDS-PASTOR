@@ -1,5 +1,5 @@
 #acordion__tit{
-    color: #000;
+    color: $text;
     font-size: large;
     font-weight: bold;
     letter-spacing: 2.5px;
@@ -28,7 +28,7 @@
         padding: 20px;
         background-color: #734ae8;
         background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
-        color: #24303c;
+        color: $bg-footer;
         h2{
             text-align: center;
             padding-top: 1px;

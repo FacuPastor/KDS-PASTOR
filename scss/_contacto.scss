@@ -10,6 +10,9 @@ main{
     .formulario{
         grid-area: formulario;
         padding: 10px;
+        .boton{
+            padding-left: 60px;
+        }
     }
     .mapa{
         grid-area: mapa;
@@ -29,12 +32,3 @@ main{
     }
 }
 
-// #form{
-//     padding: 20px;
-// }
-
-// .mapa{
-//     justify-content: end;
-//     left: 550px;
-//     bottom: 670px;
-// }
