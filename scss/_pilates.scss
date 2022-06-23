@@ -1,3 +1,19 @@
+.turnos__pilates{
+    text-align: center;
+    font-size: 25px;
+    padding: 50px;
+    a{
+        text-decoration: none;
+        background-color: $bg-nav;
+        color: #000;
+        padding: 5px;
+    }
+    a:hover{
+        color: $bg-footer;
+    }
+    
+}
+
 .infopag{
     background-color: $bg-footer;
     padding: 30px;

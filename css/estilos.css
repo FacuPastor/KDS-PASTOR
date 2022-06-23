@@ -215,7 +215,7 @@ footer {
     padding: 20px;
     background-color: #734ae8;
     background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
-    color: #167e83d9; }
+    color: #000; }
     .tarjetas .tarjetas-box h2 {
       text-align: center;
       padding-top: 1px;
@@ -228,6 +228,18 @@ footer {
       padding-top: 15px;
       border-radius: 14px;
       overflow: hidden; }
+
+.turnos__pilates {
+  text-align: center;
+  font-size: 25px;
+  padding: 50px; }
+  .turnos__pilates a {
+    text-decoration: none;
+    background-color: #A0D4E0;
+    color: #000;
+    padding: 5px; }
+  .turnos__pilates a:hover {
+    color: #167e83d9; }
 
 .infopag {
   background-color: #167e83d9;
@@ -333,11 +345,13 @@ main {
     grid-template-areas: "formulario" "mapa" "datos"; }
   .pilates {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    margin: 0;
+    padding: 0; }
     .pilates h4 {
       color: #fff;
       font-size: 17px;
-      padding: 10px;
+      padding: 40px;
       letter-spacing: 5px;
       word-spacing: 10px;
       text-align: center; }
@@ -347,11 +361,11 @@ main {
       padding: 10px;
       font-size: 14px; }
     .pilates .video__pilates {
-      width: 240px; }
+      width: 350px; }
+  .galeria__pilates .img__pilates {
+    max-width: 100%; }
   .cards {
-    flex-direction: column; } }
-
-@media screen and (max-width: 500px) {
+    flex-direction: column; }
   header {
     width: 100%;
     height: 600px;
@@ -359,13 +373,9 @@ main {
   .contenedor .titulo {
     font-size: 25px; }
   .contenedor .parrafo {
-    font-size: 13px; } }
-
-@media screen and (max-width: 600px) {
+    font-size: 13px; }
   .tarjetas {
-    padding: 0; } }
-
-@media screen and (max-width: 700px) {
+    padding: 0; }
   header {
     background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor-700.png); }
   .carousel img {
@@ -398,6 +408,13 @@ main {
         padding-top: 15px;
         border-radius: 14px;
         overflow: hidden; }
+  .tarjetas-box {
+    width: 500px; }
+  .accordion-body img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    padding: 20px; }
   .contenido {
     display: flex;
     width: 100%;
@@ -441,6 +458,7 @@ main {
       text-align: center;
       flex-direction: column;
       align-items: center;
+      justify-content: space-between;
       width: 100px; }
       footer .redes h3 {
         display: none; }
@@ -455,11 +473,4 @@ main {
     footer .ubicacion h4 {
       font-size: 12px;
       word-spacing: 0.5px;
-      margin-top: -5px; }
-  .tarjetas-box {
-    width: 500px; }
-  .accordion-body img {
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    padding: 20px; } }
+      margin-top: -5px; } }

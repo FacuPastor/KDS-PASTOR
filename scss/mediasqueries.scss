@@ -24,14 +24,16 @@
 
 /////////// seccion pilates
 /// 
+
     .pilates{
         display: flex;
         flex-direction: column;
-    
+            margin: 0;
+            padding: 0;
         h4{
             color: #fff;
             font-size: 17px;
-            padding: 10px;
+            padding: 40px;
             letter-spacing: 5px;
             word-spacing: 10px;
             text-align: center;
@@ -43,17 +45,26 @@
             font-size: 14px;
         }
         .video__pilates{
-            width: 240px;
+            width: 350px; 
         }
+
     }
+
+    .galeria__pilates{
+        .img__pilates{
+            max-width: 100%;
+                    }
+    }
+
+
 //////// seccion staff
     .cards{
         flex-direction: column;
     }
 
-}
 
-@media screen and (max-width:500px){
+
+
 
     header{    
         width: 100%;
@@ -71,16 +82,16 @@
                 font-size: 13px;
             }
         }
-}
 
-@media screen and (max-width:600px){
+
+
     
     .tarjetas{
         padding: 0;
     }
-}
+
     
-@media screen and (max-width:700px){
+
 
     header{
         background-image: linear-gradient(315deg, hsla(267, 85%, 23%, 0.529) 0%, hsla(180, 59%, 53%, 0.457) 74%), url(../fotos-videos/doctor-700.png);
@@ -126,6 +137,18 @@
             }
         }
     }
+        ///////// Estilos kinesiologia-galeria
+    
+        .tarjetas-box{
+            width: 500px;
+            }
+        
+            .accordion-body img{
+                width: 300px;
+                height: 300px;
+                border-radius: 50%;
+                padding: 20px;
+            }
 
     .contenido{
         display: flex;
@@ -184,6 +207,7 @@
                 text-align: center;
                 flex-direction: column;
                 align-items: center;
+                justify-content: space-between;
                 width: 100px;
                 h3{
                     display: none;
@@ -192,6 +216,7 @@
                     height: 30px;
                     width: 30px;
                     margin: 0 50px;
+                    
                 }
                 img{
                     width: 50px;
@@ -205,17 +230,5 @@
                 margin-top: -5px;
             }
         }
-
-    ///////// Estilos kinesiologia-galeria
     
-        .tarjetas-box{
-        width: 500px;
-        }
-    
-        .accordion-body img{
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            padding: 20px;
-        }
     }
