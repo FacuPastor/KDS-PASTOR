@@ -338,15 +338,14 @@ main {
       height: 150px; }
 
 @media screen and (max-width: 420px) {
+  header {
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor-500.png); }
   .titulos__ppal .contenedor .titulo, .titulos__ppal .contenedor .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel .titulos__ppal .contenedor .pie__foto, .titulos__ppal .contenedor .inicio .pie__carrusel h3, .inicio .pie__carrusel .titulos__ppal .contenedor h3, .titulos__ppal .contenedor .inicio .pie__carrusel ul li, .inicio .pie__carrusel ul .titulos__ppal .contenedor li {
     line-height: 27px; }
   .titulos__ppal .contenedor .parrafo {
     line-height: 22px; }
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas: "formulario" "mapa" "datos"; }
   .inicio {
     display: flex;
     flex-direction: column;
@@ -360,12 +359,7 @@ main {
     margin: 0;
     padding: 0; }
     .pilates h4 {
-      color: #fff;
-      font-size: 17px;
-      padding: 40px;
-      letter-spacing: 5px;
-      word-spacing: 10px;
-      text-align: center; }
+      display: none; }
     .pilates .items {
       color: #fff;
       list-style-type: disc;
@@ -374,13 +368,9 @@ main {
     .pilates .video__pilates {
       width: 350px; }
   .galeria__pilates .img__pilates {
-    max-width: 100%; }
+    max-width: 95%; }
   .cards {
     flex-direction: column; }
-  header {
-    width: 100%;
-    height: 600px;
-    background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor-500.png); }
   .contenedor .titulo, .contenedor .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel .contenedor .pie__foto, .contenedor .inicio .pie__carrusel h3, .inicio .pie__carrusel .contenedor h3, .contenedor .inicio .pie__carrusel ul li, .inicio .pie__carrusel ul .contenedor li {
     font-size: 25px; }
   .contenedor .parrafo {
@@ -482,4 +472,9 @@ main {
     footer .ubicacion h4 {
       font-size: 12px;
       word-spacing: 0.5px;
-      margin-top: -5px; } }
+      margin-top: -5px; }
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "formulario" "mapa" "datos"; } }
