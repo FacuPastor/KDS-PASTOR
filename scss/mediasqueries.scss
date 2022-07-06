@@ -22,6 +22,19 @@
         "datos";
     }
 
+/////////// seccion inicio
+///
+
+    .inicio{
+        display: flex;
+        flex-direction: column;
+        background-color: $bg-nav;
+        .pie__carrusel{
+            max-width: 300px;
+            margin: 20px auto;
+        }
+    }
+
 /////////// seccion pilates
 /// 
 
@@ -63,9 +76,6 @@
     }
 
 
-
-
-
     header{    
         width: 100%;
         height: 600px;
@@ -83,19 +93,10 @@
             }
         }
 
-
-
-    
     .tarjetas{
         padding: 0;
     }
 
-    
-
-
-    header{
-        background-image: linear-gradient(315deg, hsla(267, 85%, 23%, 0.529) 0%, hsla(180, 59%, 53%, 0.457) 74%), url(../fotos-videos/doctor-700.png);
-    }
     .carousel{
         img{
             width: 300px;
@@ -180,7 +181,7 @@
         img{
         width: 200px;
         margin: auto;
-        padding-right: 20px;
+        padding-right: 25px;
         }
     }
 

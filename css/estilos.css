@@ -71,7 +71,7 @@ header {
   align-items: flex-start;
   text-align: justify;
   font-weight: 300; }
-  .contenedor .titulo {
+  .contenedor .titulo, .contenedor .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel .contenedor .pie__foto, .contenedor .inicio .pie__carrusel h3, .inicio .pie__carrusel .contenedor h3, .contenedor .inicio .pie__carrusel ul li, .inicio .pie__carrusel ul .contenedor li {
     grid-row: 1/2;
     text-align: center;
     font-size: xx-large;
@@ -99,24 +99,26 @@ header {
   bottom: 0;
   width: 100%; }
 
-.carousel {
-  display: flex;
-  justify-content: center;
-  width: 100%; }
+.inicio {
+  display: flex; }
+  .inicio .pie__carrusel {
+    width: 700px;
+    margin-left: 100px;
+    background-color: #A0D4E0;
+    border-radius: 10px;
+    text-align: inherit;
+    word-spacing: 5px;
+    padding: 10px; }
+    .inicio .pie__carrusel .titulo, .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel h3, .inicio .pie__carrusel ul li {
+      padding: 10px;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+  .inicio .carousel {
+    display: flex;
+    justify-content: center;
+    width: 100%; }
 
-.pie__carrusel {
-  width: 200px;
-  background-color: #A0D4E0;
-  border-radius: 10px;
-  text-align: inherit;
-  word-spacing: 5px;
-  padding: 10px; }
-  .pie__carrusel .titulo {
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
-  .pie__carrusel .pie__foto {
-    padding: 10px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
+.img__carrusel {
+  width: 1000px; }
 
 .turno {
   display: flex;
@@ -136,57 +138,58 @@ footer {
   padding: 60px 0 30px 0;
   margin: auto;
   overflow: hidden; }
+  footer .contenedor-footer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin: auto;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #fff; }
+    footer .contenedor-footer .logo__footer {
+      width: 200px;
+      height: 100px;
+      padding: 2px;
+      margin: 2px; }
+  footer .redes {
+    text-align: center; }
+    footer .redes .redes__h3 {
+      color: #000;
+      border-bottom: 3px solid #000;
+      padding-bottom: 10px;
+      margin-bottom: 10px; }
+    footer .redes a {
+      display: inline-flex;
+      color: #fff;
+      height: 40px;
+      width: 40px;
+      background-color: #000;
+      justify-content: center;
+      align-items: center;
+      text-decoration: none;
+      border-radius: 50%;
+      margin: 0 6px;
+      transition: transform 0.4s; }
+      footer .redes a:hover {
+        transform: scale(1.5);
+        color: #fff; }
+    footer .redes .ig {
+      background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); }
+    footer .redes .fb {
+      background-color: #3c70a4; }
+    footer .redes .wapp {
+      background-color: #05a405; }
+  footer .ubicacion {
+    margin-right: 40px;
+    text-align: center; }
+    footer .ubicacion img {
+      width: 70px;
+      height: 70px;
+      padding: 10px;
+      border-radius: 30%; }
 
-.contenedor-footer {
-  display: flex;
-  width: 100%;
-  justify-content: space-between;
-  margin: auto;
-  padding-bottom: 30px;
-  border-bottom: 2px solid #fff; }
-  .contenedor-footer .logo__footer {
-    width: 200px;
-    height: 100px;
-    padding: 2px;
-    margin: 2px; }
-
-.redes {
-  text-align: center; }
-  .redes .redes__h3 {
-    color: #000;
-    border-bottom: 3px solid #000;
-    padding-bottom: 10px;
-    margin-bottom: 10px; }
-  .redes a {
-    display: inline-flex;
-    color: #fff;
-    height: 40px;
-    width: 40px;
-    background-color: #000;
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    border-radius: 50%;
-    margin: 0 6px;
-    transition: transform 0.4s; }
-    .redes a:hover {
-      transform: scale(1.5);
-      color: #fff; }
-  .redes .ig {
-    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf); }
-  .redes .fb {
-    background-color: #3c70a4; }
-  .redes .wapp {
-    background-color: #05a405; }
-
-.ubicacion {
-  margin-right: 40px;
-  text-align: center; }
-  .ubicacion img {
-    width: 70px;
-    height: 70px;
-    padding: 10px;
-    border-radius: 30%; }
+.acordion {
+  background-color: #A0D4E0;
+  padding: 20px; }
 
 #acordion__tit {
   color: #000;
@@ -208,14 +211,16 @@ footer {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-items: center;
-  padding: 50px; }
+  padding: 50px;
+  background-color: #A0D4E0; }
   .tarjetas .tarjetas-box {
-    width: 600px;
+    width: 650px;
     margin: 10px;
     padding: 20px;
     background-color: #734ae8;
     background-image: linear-gradient(315deg, #734ae8 0%, #89d4cf 74%);
-    color: #000; }
+    color: #000;
+    border-radius: 20px; }
     .tarjetas .tarjetas-box h2 {
       text-align: center;
       padding-top: 1px;
@@ -224,9 +229,8 @@ footer {
       margin-top: 20px; }
     .tarjetas .tarjetas-box img {
       width: 100%;
-      height: 470px;
+      height: 700px;
       padding-top: 15px;
-      border-radius: 14px;
       overflow: hidden; }
 
 .turnos__pilates {
@@ -284,31 +288,31 @@ footer {
     border-style: double;
     margin: 10px; }
 
-.section .seccion_staff h2 {
-  font-size: 40px;
-  text-align: center;
-  background-color: #A0D4E0;
-  padding: 10px;
-  margin: auto; }
-
-.section .seccion_staff p {
-  font-size: 25px;
-  padding-left: 20px;
-  padding-bottom: 10px;
-  text-decoration: underline;
+.section {
   background-color: #A0D4E0; }
-
-.section .cards {
-  display: flex;
-  padding: 10px;
-  margin: 20px; }
-  .section .cards .card {
-    margin: 20px;
-    justify-content: center; }
-    .section .cards .card .card-title {
-      text-align: center; }
-  .section .cards .card-body a {
-    padding: 5px; }
+  .section .seccion_staff h2 {
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    margin: auto; }
+  .section .seccion_staff p {
+    font-size: 25px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    text-decoration: underline; }
+  .section .cards {
+    display: flex;
+    padding: 10px;
+    margin: 20px; }
+    .section .cards .card {
+      margin: 20px;
+      justify-content: center; }
+      .section .cards .card .card-title {
+        text-align: center; }
+      .section .cards .card .card-text {
+        text-align: center; }
+    .section .cards .card-body a {
+      padding: 5px; }
 
 main {
   display: grid;
@@ -334,7 +338,7 @@ main {
       height: 150px; }
 
 @media screen and (max-width: 420px) {
-  .titulos__ppal .contenedor .titulo {
+  .titulos__ppal .contenedor .titulo, .titulos__ppal .contenedor .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel .titulos__ppal .contenedor .pie__foto, .titulos__ppal .contenedor .inicio .pie__carrusel h3, .inicio .pie__carrusel .titulos__ppal .contenedor h3, .titulos__ppal .contenedor .inicio .pie__carrusel ul li, .inicio .pie__carrusel ul .titulos__ppal .contenedor li {
     line-height: 27px; }
   .titulos__ppal .contenedor .parrafo {
     line-height: 22px; }
@@ -343,6 +347,13 @@ main {
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-template-areas: "formulario" "mapa" "datos"; }
+  .inicio {
+    display: flex;
+    flex-direction: column;
+    background-color: #A0D4E0; }
+    .inicio .pie__carrusel {
+      max-width: 300px;
+      margin: 20px auto; }
   .pilates {
     display: flex;
     flex-direction: column;
@@ -370,14 +381,12 @@ main {
     width: 100%;
     height: 600px;
     background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor-500.png); }
-  .contenedor .titulo {
+  .contenedor .titulo, .contenedor .inicio .pie__carrusel .pie__foto, .inicio .pie__carrusel .contenedor .pie__foto, .contenedor .inicio .pie__carrusel h3, .inicio .pie__carrusel .contenedor h3, .contenedor .inicio .pie__carrusel ul li, .inicio .pie__carrusel ul .contenedor li {
     font-size: 25px; }
   .contenedor .parrafo {
     font-size: 13px; }
   .tarjetas {
     padding: 0; }
-  header {
-    background-image: linear-gradient(315deg, rgba(54, 9, 109, 0.529) 0%, rgba(64, 206, 206, 0.457) 74%), url(../fotos-videos/doctor-700.png); }
   .carousel img {
     width: 300px;
     height: 500px;
@@ -438,7 +447,7 @@ main {
   .turno img {
     width: 200px;
     margin: auto;
-    padding-right: 20px; }
+    padding-right: 25px; }
   footer {
     background: #167e83d9;
     padding: 60px 0 30px 0;

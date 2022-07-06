@@ -1,9 +1,10 @@
 .section{
+    background-color: $bg-nav;
     .seccion_staff{
         h2{
         font-size: 40px;
         text-align: center;
-        background-color: $bg-nav;
+        
         padding: 10px;
         margin: auto;
         }
@@ -12,7 +13,7 @@
             padding-left: 20px;
             padding-bottom: 10px;
             text-decoration: underline;
-            background-color: $bg-nav;
+            
         }
     }
     .cards{
@@ -23,6 +24,9 @@
             margin: 20px;
             justify-content: center;
             .card-title{
+                text-align: center;
+            }
+            .card-text{
                 text-align: center;
             }
         }

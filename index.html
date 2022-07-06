@@ -44,7 +44,7 @@
                         <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Secciones</a>
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown bg-secondary">
                             <li><a class="dropdown-item" href="secciones/kinesiologia.html">Kinesiología</a></li>
                             <li><a class="dropdown-item" href="secciones/pilates.html">Pilates</a></li>
@@ -77,54 +77,61 @@
 
 <!------ informacion del sitio ------->
 
-    <div class="carousel">
-        <div id="carouselExampleIndicators" class="carousel slide w-75" data-bs-ride="true">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                    class="active bg-success" aria-current="true" aria-label="Slide 1" "></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2" class="bg-success"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3" class="bg-success"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
-                    aria-label="Slide 4" class="bg-success"></button>
-            </div>
+    <section class="inicio">
             <div class="pie__carrusel">
                 <h2 class="titulo">NUESTRO LOCAL</h2>
                 <p class="pie__foto">En <b>KDS</b> te ofrecemos mejorar tu calidad de vida a través de una amplia variedad de tratamientos y terapias de rehabilitación kinesiológica en amplios espacios de rehabilitación.</p>
+                <h3>Contamos con:</h3>
+                <ul>
+                    <li>6 box de rehabilitación equipados</li>
+                    <li>4 camas de pilates</li>
+                    <li>Gimnasio completo</li>
+                    <li>Vestuarios</li>
+                    <li>Aparatología MEP, ultrasonido, magnetoterapia, electroestimulación y más. </li>
+                </ul>
             </div>
-            <div class="carousel-inner rounded-4" id="carrusel_contenedor">
-                <div class="carousel-item active" data-bs-interval:2000 id="img_carrusel">
-                    <img src="fotos-videos/frente.jpeg" class="d-block w-100" alt="Frente local">
-                </div>
-                <div class="carousel-item" data-bs-interval:"3000">
-                    <img src="fotos-videos/frente1.jpeg" class="d-block w-100" alt="Frente local">
-                </div>
-                <div class="carousel-item" data-bs-interval:"3000">
-                    <img src="fotos-videos/frente2.jpeg" class="d-block w-100" alt="Frente local">
-                </div>
-                <div class="carousel-item" data-bs-interval:"3000">
-                    <img src="fotos-videos/frente3.jpeg" class="d-block w-100" alt="Frente local">
+            <div class="carousel">
+                <div id="carouselExampleIndicators" class="carousel slide w-75" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active bg-success" aria-current="true" aria-label="Slide 1" "></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2" class="bg-success"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3" class="bg-success"></button>
+                            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4" class="bg-success"></button>
+                    </div>
+                    <div class="carousel-inner rounded-4" id="carrusel_contenedor">
+                        <div class="carousel-item active" data-bs-interval:2000>
+                            <img src="fotos-videos/local.jpeg" class="d-block w-100 img__carrusel" alt="Frente local">
+                        </div>
+                        <div class="carousel-item" data-bs-interval:"3000">
+                            <img src="fotos-videos/local6.jpeg" class="d-block w-100 img__carrusel" alt="Frente local">
+                        </div>
+                        <div class="carousel-item" data-bs-interval:3000>
+                            <img src="fotos-videos/local1.jpeg" class="d-block w-100 img__carrusel" alt="Frente local">
+                        </div>
+                        <div class="carousel-item img__carrusel" data-bs-interval:3000>
+                            <img src="fotos-videos/local2.jpeg" class="d-block w-100 img__carrusel" alt="Frente local">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon bg-success" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon bg-success" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-    </div>
-
-    
-
+    </section>
     <section class="turno">
-    <h3 class="turno__h3">>Reservá tu turno online</h3>
-    <a href="https://api.whatsapp.com/send?phone=3413469686&text=Hola,%20quiero%20solicitar%20un%20turno" target="_blank"><img src="./fotos-videos/Solicitar_Turno1 (2).png" alt="Turno" class="turno__img"></a>
+        <h3 class="turno__h3">>Reservá tu turno online</h3>
+        <a href="https://api.whatsapp.com/send?phone=3413469686&text=Hola,%20quiero%20solicitar%20un%20turno" target="_blank"><img src="./fotos-videos/Solicitar_Turno1 (2).png" alt="Turno" class="turno__img"></a>
     </section>
 
 <!------ finaliza del sitio ------->
